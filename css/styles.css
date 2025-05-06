@@ -3,7 +3,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*Smartphone*/
 [class*="col-"]{
     float: left;
     width: 100%;
@@ -17,7 +16,7 @@
 }
 
 @media only screen and (min-width: 600px){
-    /*Tablet*/
+    /*Celular*/
     .col-s-1{
         width: 8.33%;
     }
@@ -68,7 +67,7 @@
 }
 
 @media only screen and (min-width: 700px){
-    /*Desktop*/
+    /*Tablet*/
     .col-1{
         width: 8.33%;
     }
